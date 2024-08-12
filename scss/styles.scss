@@ -16,6 +16,7 @@ html, body {
 a {
     text-decoration: none;
     text-transform: uppercase;
+    color: black;
 }
 
 ul {
@@ -24,7 +25,7 @@ ul {
 
 .navbar ul li a:hover,
 .navbar ul li a.active {
-    color: violet;
+    color: grey;
     text-decoration: underline;
 }
 
@@ -62,12 +63,62 @@ img {
     font-size: 4rem;
     font-weight: 400;
     text-align: center; 
+    text-transform: uppercase;
 }
 
 p {
     line-height: 30px;
     text-align: justify;
     margin: 2rem 0;
+}
+
+//mainheader
+#mainheader {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    .navbar {
+        ul {
+            text-align: center;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            li {
+                display: inline;
+                margin-left: 1rem;
+            }
+            .container {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+            }
+        }
+    }
+    .logo {
+        text-decoration: none;
+        border: 3px solid black;
+        padding: 20px 150px;
+        font-size: 2rem;
+        color: grey;
+    }
+}
+
+//about
+#about {
+    width: 90%;
+    margin: 0 auto;
+    .container {
+        .title {
+            margin: 5rem 0;
+        }
+        .about-flex {
+            .flexbox-1 {
+                width: 50%;
+            }
+            .flexbox-2 {
+                width: 40%;
+            }
+        }
+    }
 }
 
 //footer
