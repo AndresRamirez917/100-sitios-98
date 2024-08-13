@@ -42,9 +42,9 @@ img {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(400px, auto);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(300px, auto);
+    gap: 10px;
 }
 
 .flex {
@@ -118,6 +118,58 @@ p {
             color: grey;
             padding: 10px;
         }
+    }
+}
+
+//showcase
+#showcase {
+    width: 95%;
+    margin: 0 auto;
+    .showcase-grid {
+        .gridbox-1 {
+            background: url("/img/img1.jpg");
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+        .gridbox-2 {
+            background: url("/img/img2.jpg");
+            grid-column: 3/4;
+            grid-row: 1;
+        }
+        .gridbox-3 {
+            background: url("/img/img3.jpg");
+            grid-column: 3/4;
+            grid-row: 2;
+        }
+        .gridbox-4 {
+            background: url("/img/img4.jpg");
+            grid-column: 1/2;
+            grid-row: 3;
+        }
+        .gridbox-5 {
+            background: url("/img/img5.jpg");
+            grid-column: 1/2;
+            grid-row: 4;
+        }
+        .gridbox-6 {
+            background: url("/img/img6.jpg");
+            grid-column: 2/4;
+            grid-row: 3/5;
+        }
+
+
+
+        .gridbox-1,
+        .gridbox-2,
+        .gridbox-3,
+        .gridbox-4,
+        .gridbox-5,
+        .gridbox-6 {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
     }
 }
 
