@@ -72,6 +72,21 @@ p {
     margin: 2rem 0;
 }
 
+    //tricky hover-effect
+  a:hover {
+    // font-size: 2.4rem;
+    // font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: gray;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  //tricky hover-effect
+
+
 //mainheader
 #mainheader {
     width: 90%;
@@ -92,13 +107,17 @@ p {
                 width: 100%;
             }
         }
-    }
-    .logo {
-        text-decoration: none;
-        border: 3px solid black;
-        padding: 20px 150px;
-        font-size: 2rem;
-        color: grey;
+        .logo {
+            //tricky hover-effect
+            width: 32%;
+            height: 60px;
+            margin: 0 auto;
+            text-decoration: none;
+            border: 3px solid black;
+            font-size: 2rem;
+            color: grey;
+            padding: 10px;
+        }
     }
 }
 
