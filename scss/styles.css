@@ -154,6 +154,27 @@ h1 {
   background-size: cover;
 }
 
+#dressShoes {
+  width: 90%;
+  margin: 0 auto;
+}
+#dressShoes .dressShoes-grid .gridbox-1 {
+  background: url("/img/img6.jpg");
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+#dressShoes .dressShoes-grid .gridbox-2 {
+  background: url("/img/img2.jpg");
+  grid-column: 1/4;
+  grid-row: 4/7;
+}
+#dressShoes .dressShoes-grid .gridbox-1,
+#dressShoes .dressShoes-grid .gridbox-2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #about {
   width: 90%;
   margin: 0 auto;

@@ -173,6 +173,31 @@ p {
     }
 }
 
+//dressShoes
+#dressShoes {
+    width: 90%;
+    margin: 0 auto;
+    .dressShoes-grid {
+        .gridbox-1 {
+            background: url("/img/img6.jpg");
+            grid-column: 1/4;
+            grid-row: 1/4;
+        }
+        .gridbox-2 {
+            background: url("/img/img2.jpg");
+            grid-column: 1/4;
+            grid-row: 4/7;
+        }
+
+        .gridbox-1,
+        .gridbox-2 {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
 //about
 #about {
     width: 90%;
