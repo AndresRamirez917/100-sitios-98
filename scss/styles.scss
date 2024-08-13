@@ -262,13 +262,29 @@ p {
     .container {
         .articles-flex {
             .details-flex {
-                font-size: .8rem;
-                margin-bottom: 1rem;
+                a,h2 {
+                    font-size: .8rem;
+                    margin-bottom: 1rem;
+                }
+                h2 {
+                    text-transform: uppercase;
+                    font-weight: 400;
+                }
+              
             }
             margin-top: 4rem;
             .flexbox {
                 img {
                     width: 60%;
+                }
+            }
+            .flexbox-content {
+                ul {
+                    li {
+                       i {
+                        color: blue;
+                       }
+                    }
                 }
             }
         }

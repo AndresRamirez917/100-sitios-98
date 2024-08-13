@@ -232,12 +232,19 @@ h1 {
 #articles .container .articles-flex {
   margin-top: 4rem;
 }
-#articles .container .articles-flex .details-flex {
+#articles .container .articles-flex .details-flex a, #articles .container .articles-flex .details-flex h2 {
   font-size: 0.8rem;
   margin-bottom: 1rem;
 }
+#articles .container .articles-flex .details-flex h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
 #articles .container .articles-flex .flexbox img {
   width: 60%;
+}
+#articles .container .articles-flex .flexbox-content ul li i {
+  color: blue;
 }
 
 #footer {
