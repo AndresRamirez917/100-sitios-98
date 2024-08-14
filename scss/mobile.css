@@ -57,8 +57,6 @@
 #sneakers .sneakers-grid .gridbox-3,
 #sneakers .sneakers-grid .gridbox-4 {
   grid-column: 1;
-  height: 97%;
-  padding: 0;
 }
 
 #dressShoes .dressShoes-grid .gridbox-1 {
@@ -77,5 +75,12 @@
   margin: 0 auto;
 }
 #about .container .about-flex .flexbox-1, #about .container .about-flex .flexbox-2 {
+  width: 100%;
+}
+
+#articles .container .articles-flex .flexbox {
+  display: block;
+}
+#articles .container .articles-flex .flexbox img {
   width: 100%;
 }/*# sourceMappingURL=mobile.css.map */

@@ -69,9 +69,7 @@
         .gridbox-2,
         .gridbox-3,
         .gridbox-4 {
-           grid-column: 1;
-           height: 97%;
-           padding: 0;
+           grid-column: 1; 
         }
     }
 }
@@ -102,6 +100,20 @@
             margin: 0 auto;
             .flexbox-1, .flexbox-2 {
                 width: 100%;
+            }
+        }
+    }
+}
+
+//articles
+#articles {
+    .container {
+        .articles-flex {
+            .flexbox {
+                display: block;
+                img {
+                    width: 100%;
+                }
             }
         }
     }

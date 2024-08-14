@@ -36,9 +36,9 @@ ul {
     overflow: auto;
 }
 
-img {
-    max-width: 100%;
-}
+ img {
+     max-width: 100%;
+ }
 
 .grid {
     display: grid;
@@ -127,33 +127,30 @@ p {
     margin: 0 auto;
     .showcase-grid {
         margin-top: 4rem;
+        img {
+            width: 100%;
+        }
         .gridbox-1 {
-            background: url("/img/img1.jpg");
             grid-column: 1/3;
             grid-row: 1/3;
         }
         .gridbox-2 {
-            background: url("/img/img2.jpg");
             grid-column: 3/4;
             grid-row: 1;
         }
         .gridbox-3 {
-            background: url("/img/img3.jpg");
             grid-column: 3/4;
             grid-row: 2;
         }
         .gridbox-4 {
-            background: url("/img/img4.jpg");
             grid-column: 1/2;
             grid-row: 3;
         }
         .gridbox-5 {
-            background: url("/img/img5.jpg");
             grid-column: 1/2;
             grid-row: 4;
         }
         .gridbox-6 {
-            background: url("/img/img6.jpg");
             grid-column: 2/4;
             grid-row: 3/5;
         }
@@ -178,25 +175,24 @@ p {
     margin: 0 auto;
     .sneakers-grid {
         margin-top: 4rem;
+        img {
+            width: 100%;
+        }
         .gridbox-1 {
-            background: url("/img/img1.jpg");
+            // background: url("/img/img1.jpg");
             grid-column: 1/4;
-      
         }
         .gridbox-2 {
-            background: url("/img/img3.jpg");
+            // background: url("/img/img3.jpg");
             grid-column: 1/4;
-           
         }
         .gridbox-3 {
-            background: url("/img/img4.jpg");
+            // background: url("/img/img4.jpg");
             grid-column: 1/4;
-            
         }
         .gridbox-4 {
-            background: url("/img/img5.jpg");
+            // background: url("/img/img5.jpg");
             grid-column: 1/4;
-           
         }
         .gridbox-1,
         .gridbox-2,
@@ -206,8 +202,6 @@ p {
             background-repeat: no-repeat;
             background-size: cover;
             margin-bottom: 1rem;
-            padding: 400px;
-
         }
     }
   
@@ -219,15 +213,14 @@ p {
     margin: 0 auto;
     .dressShoes-grid {
         margin-top: 4rem;
+        img {
+            width: 100%;
+        }
         .gridbox-1 {
-            background: url("/img/img6.jpg");
             grid-column: 1/4;
-            grid-row: 1/4;
         }
         .gridbox-2 {
-            background: url("/img/img2.jpg");
             grid-column: 1/4;
-            grid-row: 4/7;
         }
 
         .gridbox-1,
