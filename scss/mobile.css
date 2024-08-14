@@ -38,4 +38,44 @@
 #showcase .showcase-grid .gridbox-5,
 #showcase .showcase-grid .gridbox-6 {
   grid-column: 1;
+}
+
+#sneakers .sneakers-grid .gridbox-1 {
+  grid-row: 1;
+}
+#sneakers .sneakers-grid .gridbox-2 {
+  grid-row: 2;
+}
+#sneakers .sneakers-grid .gridbox-3 {
+  grid-row: 3;
+}
+#sneakers .sneakers-grid .gridbox-4 {
+  grid-row: 4;
+}
+#sneakers .sneakers-grid .gridbox-1,
+#sneakers .sneakers-grid .gridbox-2,
+#sneakers .sneakers-grid .gridbox-3,
+#sneakers .sneakers-grid .gridbox-4 {
+  grid-column: 1;
+  height: 97%;
+  padding: 0;
+}
+
+#dressShoes .dressShoes-grid .gridbox-1 {
+  grid-row: 1;
+}
+#dressShoes .dressShoes-grid .gridbox-2 {
+  grid-row: 2;
+}
+#dressShoes .dressShoes-grid .gridbox-1,
+#dressShoes .dressShoes-grid .gridbox-2 {
+  grid-column: 1;
+}
+
+#about .container .about-flex {
+  display: block;
+  margin: 0 auto;
+}
+#about .container .about-flex .flexbox-1, #about .container .about-flex .flexbox-2 {
+  width: 100%;
 }/*# sourceMappingURL=mobile.css.map */
