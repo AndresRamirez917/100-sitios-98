@@ -1,1 +1,41 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .navbar .container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .navbar .logo {
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#showcase .showcase-grid .gridbox-1 {
+  grid-row: 1;
+}
+#showcase .showcase-grid .gridbox-2 {
+  grid-row: 2;
+}
+#showcase .showcase-grid .gridbox-3 {
+  grid-row: 3;
+}
+#showcase .showcase-grid .gridbox-4 {
+  grid-row: 4;
+}
+#showcase .showcase-grid .gridbox-5 {
+  grid-row: 5;
+}
+#showcase .showcase-grid .gridbox-6 {
+  grid-row: 6;
+}
+#showcase .showcase-grid .gridbox-1,
+#showcase .showcase-grid .gridbox-2,
+#showcase .showcase-grid .gridbox-3,
+#showcase .showcase-grid .gridbox-4,
+#showcase .showcase-grid .gridbox-5,
+#showcase .showcase-grid .gridbox-6 {
+  grid-column: 1;
+}/*# sourceMappingURL=mobile.css.map */

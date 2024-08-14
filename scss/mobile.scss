@@ -1,0 +1,51 @@
+//mainheader
+#mainheader {
+    .navbar {
+        .container {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .logo {
+            display: inline;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}
+
+//showcase
+.grid {
+    grid-template-columns: repeat(1, 1fr);
+}
+#showcase {
+    .showcase-grid {
+        .gridbox-1 {
+            grid-row: 1;
+        }
+        .gridbox-2 {
+            grid-row: 2;
+        }
+        .gridbox-3 {
+            grid-row: 3;
+        }
+        .gridbox-4 {
+            grid-row: 4;
+        }
+        .gridbox-5 {
+            grid-row: 5;
+        }
+        .gridbox-6 {
+            grid-row: 6;
+        }
+        .gridbox-1,
+        .gridbox-2,
+        .gridbox-3,
+        .gridbox-4,
+        .gridbox-5,
+        .gridbox-6 {
+           grid-column: 1;
+        }
+
+    }
+}

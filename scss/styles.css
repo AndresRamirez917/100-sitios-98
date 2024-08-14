@@ -243,6 +243,9 @@ h1 {
 #articles .container .articles-flex .flexbox img {
   width: 60%;
 }
+#articles .container .articles-flex .flexbox-content ul li {
+  margin-bottom: 0.2rem;
+}
 #articles .container .articles-flex .flexbox-content ul li i {
   color: blue;
 }
